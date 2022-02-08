@@ -4,3 +4,8 @@
 body {
     background-color: var(--background-color);
 }
+
+#menu{
+    float: left;
+    background-color: rgba(rgb(228, 62, 33), 0.3);
+}
