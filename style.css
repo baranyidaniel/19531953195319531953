@@ -1,11 +1,30 @@
 :root {
     --background-color: rgb(245, 155, 155);
-}
-body {
-    background-color: var(--background-color);
+    --header-color:rgb(231, 122, 122);
 }
 
-#menu{
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    margin: 0;
+    padding-top: 15px;
+    width: 20%;
+    height: 100vh;
+    background-color: var(--header-color);
     float: left;
-    background-color: rgba(rgb(228, 62, 33), 0.3);
+    display: flex;
+}
+
+.content {
+    display: flex;
+    padding: 10px;
+}
+
+footer {
+    bottom: 0;
 }
