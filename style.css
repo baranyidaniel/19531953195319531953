@@ -1,6 +1,7 @@
 :root {
     --background-color: rgb(245, 155, 155);
     --header-color:rgb(231, 122, 122);
+    --hover-color: red;
 }
 
 body {
@@ -12,22 +13,13 @@ body {
 
 aside {
     margin: 0;
-    padding-top: 0;
+    padding-top: 20px;
     width: 20%;
     height: 100vh;
     background-color: var(--header-color);
     float: left;
     display: block;
     margin-right: 20px;
-}
-
-.content {
-    display: block;
-    padding: 20px;
-}
-
-footer {
-    bottom: 0;
 }
 
 h1 {
@@ -40,7 +32,22 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: red;
+li {
+    list-style: "★";
+    color: yellow;
 }
 
+a:hover {
+    color: var(--hover-color);
+}
+
+main {
+    display: block;
+    padding: 20px;
+}
+
+#kep_xi {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
