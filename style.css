@@ -17,12 +17,13 @@ aside {
     height: 100vh;
     background-color: var(--header-color);
     float: left;
-    display: flex;
+    display: block;
+    margin-right: 20px;
 }
 
 .content {
-    display: flex;
-    padding: 10px;
+    display: block;
+    padding: 20px;
 }
 
 footer {
