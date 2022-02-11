@@ -57,11 +57,24 @@ video {
 }
 
 img {
-    width: 300px;
-    height: 200px;
+    width: 275px;
+    height: 175px;
 }
 
 #zhong {
-    align-items:flex-start;
     text-align: center;
+}
+
+#tobbikep_felso{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+#tobbikep_also{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
 }
